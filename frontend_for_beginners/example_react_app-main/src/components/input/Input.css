@@ -1,0 +1,16 @@
+.Input{
+    float:left;
+    width:60%;
+    padding-left:38%;
+    overflow: auto;
+}
+
+.Input label{
+    float:left;
+}
+
+.Input input[type=text]{
+    float:left;
+    width:30%;
+    margin-left:5px;
+}

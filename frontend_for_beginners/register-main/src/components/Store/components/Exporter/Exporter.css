@@ -1,0 +1,14 @@
+.StoreBar .StoreExporter{
+    font-size:25px;
+    text-align: center;
+    border-radius:5px;
+    margin:2px 10px 2px auto;
+    max-width:150px;
+    padding-top:3px;
+    padding: 0 2px 0 2px;
+    border:1px solid rgb(241, 232, 232);
+}
+
+.StoreExporter:hover{
+    cursor:pointer;
+}

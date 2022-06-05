@@ -1,0 +1,17 @@
+.StoreBar .Search{
+    border-radius:5px;
+    margin:2px 5px 2px 0;
+    max-width:350px;
+    background-color:transparent;
+}
+
+.SearchBar{
+    background:transparent;
+}
+
+.SearchBar input{
+    max-width:280px;
+    display: inline;
+    background-color: white;
+    color:black;
+}

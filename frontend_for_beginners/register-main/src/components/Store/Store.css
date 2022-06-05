@@ -1,0 +1,90 @@
+.Store{
+    margin:0;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.StoreBar{
+  
+    background: rgb(52,70,94);
+
+  background: -webkit-linear-gradient(to right, rgba(52,70,94,1), rgba(65,146,131,1), rgba(65,146,131,1), rgba(65,146,131,1));
+
+  background: linear-gradient(to right, rgba(52,70,94,1), rgba(65,146,131,1), rgba(65,146,131,1), rgba(65,146,131,1));
+  box-sizing: border-box;
+
+
+}
+
+.StoreBar .StoreBarLogo{
+    background-color:white;
+    border:1px solid white;
+    border-radius:5px;
+    margin:2px 0px 2px 15px;
+    width:150px;
+    float:left;
+}
+
+
+
+.StoreSize{
+    text-align: center;
+    color:gray;
+    font-size:20px;
+    font-weight:bolder;
+    display:block;
+    width:100%;
+    text-align: center;
+    display: none;
+}
+
+
+.StoreBar .StoreExporter:hover{
+    background-color:rgb(241, 232, 232);
+}
+
+.StoreContent {
+    width:100%;
+    box-sizing: border-box;
+}
+
+.StoreContent .card{
+    max-width:500px;
+    margin-left:2%;
+    margin-top:1%;
+    color:rgb(52,70,94);
+}
+
+.StoreContent .StorePreload{
+    color:gray;
+    font-size:40px;
+    font-weight:bolder;
+    display:block;
+    width:100%;
+    text-align: center;
+}
+
+.Store hr{width:100%}
+
+.StoreContent .card-body{
+    width:100%;
+}
+
+.StoreContent .card-title, .card-quantity{
+    text-align: center;
+}
+
+.StoreContent .card-member{
+    width:100%;
+    float:left;
+    text-align: center;
+}
+
+.StoreContent .card-members{
+    width:100%;
+    float:left;
+}
+
+.StoreContent li{
+    list-style: none;
+}

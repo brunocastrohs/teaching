@@ -1,0 +1,22 @@
+.Register{margin:0;  background: rgb(52,70,94);
+  background: linear-gradient(180deg, rgba(52,70,94,1) 0%, rgba(65,146,131,1) 35%, rgba(65,146,131,1) 100%);}
+
+.Register h4,.form-label, .py-5, .pt-5{
+    color:#78cbe4 !important;
+  }
+  
+  .Register .pt-5 a{
+    color:rgb(54, 49, 49);
+  }
+
+  .Register p{
+    color:#78cbe4 !important;
+
+  }
+  
+  .Register .btn{background-color: rgb(54, 49, 49); border:gray;}
+  
+  .Register .btn:hover{background-color: black; border:black;}
+  
+  .Register select, option{color:gray !important;}
+  
