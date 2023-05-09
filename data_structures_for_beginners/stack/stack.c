@@ -22,7 +22,7 @@ int push(Stack *stack, int e)
 {
     if (stack->size < stack->n)
     { // avalia se stack não está cheio e se o elemento e é positivo
-        stack->data[stack->size] = e;
+        stack->data[stack->size++] = e;
         return 1;
     }
     return 0;

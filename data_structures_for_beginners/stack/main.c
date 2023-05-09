@@ -3,12 +3,11 @@
 #include "stack.h"
 int main()
 {
-    Stack *ds = create(2);
+    Stack *ds = create(5);
     push(ds, 10);
-    push(ds, 20);
+    push(ds, 5);
+    push(ds, 15);
     pop(ds);
-    push(ds, 30);
-    pop(ds);
-    pop(ds);
+    push(ds, 25);
     return 1;
 }
