@@ -62,10 +62,9 @@ Tree *create()
 
 void addRoot(Tree *tree, int value)
 {
-    Node *node = createNode(value);
-
     if (tree->size == 0)
     {
+        Node *node = createNode(value);
         tree->root = node;
         tree->size++;
     }

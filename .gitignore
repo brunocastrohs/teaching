@@ -1,0 +1,21 @@
+# Node dependencies
+/node_modules
+
+# Build output
+/build
+
+# Visual Studio Code
+.vscode
+
+# Mac OS
+.DS_Store
+
+# .NET Core
+bin/
+obj/
+
+# IDE files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
