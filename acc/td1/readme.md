@@ -16,14 +16,6 @@ Esse problema é aplicável em diversas áreas, como logística (seleção de it
    
 3. **Programação Dinâmica**: A solução é construída a partir de soluções parciais armazenadas, evitando recomputações e tornando a resolução mais eficiente.
 
-## Comparação de Desempenho
-Para cada um dos algoritmos, testamos o desempenho em diferentes tamanhos de instâncias de problema. A comparação é baseada no tempo de execução, onde cada algoritmo foi testado em instâncias variadas do problema da mochila.
-
-| Algoritmo             | Instância 1 | Instância 2 | Instância 3 |
-|-----------------------|-------------|-------------|-------------|
-| Força Bruta           | 1500ms      | 4500ms      | 10000ms     |
-| Divisão e Conquista   | 500ms       | 1500ms      | 3000ms      |
-| Programação Dinâmica  | 100ms       | 300ms       | 600ms       |
 
 ## Como Rodar
 1. Clone este repositório.
